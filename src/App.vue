@@ -1,11 +1,16 @@
-<script setup></script>
+<!-- SCRIPT -->
+<script setup>
 
+//Variáveis
+ let nome = "Valmir";
+ let idade = 25;
+ let numero1 = 10;
+ let numero2 = 5;
+
+</script>
+
+<!-- HTML -->
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+ <p>{{ 'Olá ' + nome + ' você tem ' + idade + ' anos.' }}</p>
+ <p>{{ numero1+numero2 }}</p>
 </template>
-
-<style scoped></style>
